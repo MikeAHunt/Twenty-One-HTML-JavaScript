@@ -1,0 +1,234 @@
+﻿body {
+	/*background: linear-gradient(to bottom right,white, #41d6f4);*/
+	/*background-attachment: fixed;*/
+	min-height: 100%;
+}
+
+#monk2 {
+	max-width: 45%;
+	max-height: 45%;
+}
+
+#monk1 {
+	max-width: 40%;
+	max-height: 40%;
+}
+
+html {
+	height: 100%;
+	position: relative;
+	background-image: url(Tropical-Island-6.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#title {
+	text-align: center;
+	font-family: Algerian;
+	font-size: 30px;
+	background: radial-gradient(red,yellow,green);
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 5px solid white;
+	border-left: 5px solid grey;
+	border-right: 5px solid white;
+	border-bottom: 5px solid black;
+	border-radius: 60px 60px 0 0;
+}
+
+audio {
+	width: 250px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+#nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(red,orange);
+	width: 400px;
+	height: 50px;
+	border-top: 5px solid grey;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	border-bottom: 5px solid black;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+
+#nav a{
+	text-decoration: none;
+	font-family: comic sans ms;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+#nav a:hover{
+	color: black;
+}
+
+.home, .play, .instructions {
+	margin-left: 50px;
+}
+
+#main {
+	width: 850px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#game {
+	background: radial-gradient( beige, saddlebrown);
+	height: 450px;
+	width: 500px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 70px;
+	border: 1px solid black;
+	position: relative;
+}
+
+#cardset1 {
+	background: radial-gradient(black 20%,red 30%,white 40%);
+	height: 320px;
+	width: 220px;
+	float: left;
+	margin-top: 10px;
+	border-radius: 70px;
+	border: 1px solid black;
+}
+
+#cardset2 {
+	background: radial-gradient(black 20%,yellow 30%,white 40%);
+	height: 320px;
+	width: 220px;
+	float: right;
+	margin-top: 10px;
+	border-radius: 70px;
+	border: 1px solid black;
+}
+/*Interesting how an absolute element is centered*/
+#output {
+	height: 40px;
+	width: 200px;
+	background: linear-gradient(white,pink);
+	position: absolute;
+	bottom: 60px;
+	left: 50%; /*puts the left of the div in center of relative container*/
+	margin-left: -100px;/*move back half the width of the div for a center display*/
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+#begin {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 80%;
+	font-size: 28px;
+	width: 100px;
+	height: 40px;
+}
+
+#player1 {
+	background: linear-gradient(red, white);
+	height: 300px;
+	width: 150px;
+	float: left;
+	margin-left: 10px;
+	border: 3px solid black;
+	border-right: 10px solid black;
+	border-bottom: 7px solid black;
+	text-align: center;
+	border-radius: 20px 40px 20px 40px;
+}
+
+#player2{
+	background: linear-gradient(yellow, white);
+	height: 300px;
+	width: 150px;
+	float: right;
+	margin-right: 10px;
+	border: 3px solid black;
+	border-left: 10px solid black;
+	border-bottom: 7px solid black;
+	text-align: center;
+	border-radius: 40px 20px 40px 20px;
+}
+
+#p1score, #p2score, #tfp1, #tfp2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+button {
+	width: 60px;
+	height: 30px;
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+button:hover {
+	background: linear-gradient(lightskyblue, dodgerblue);
+}
+
+#footer {
+	background-color: black;
+	color: white;
+	height: 30px;
+	margin-top: 10px;
+	position: absolute;
+ 	text-align: center;
+	width:100%;
+	right: 0;
+  	left: 0;
+	clear:both;
+}
+
+#instruction {
+	background: radial-gradient(white,red);
+	width: 320px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	margin: 0 auto;
+	border: 5px solid black;
+}
+
+table {
+	background-color: grey;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+td {
+	padding: 5px;
+	border-style: inset;
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	background-color: white;
+	width: 20px
+}
